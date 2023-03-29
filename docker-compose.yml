@@ -1,0 +1,11 @@
+# 使用的的 docker compose 文件标准
+version: "3"
+# 服务列表，一个容器可以理解为一个服务
+services:
+  # 容器1
+  app:
+    # 使用的镜像
+    image: "python:2.7.18-alpine3.10"
+    volumes:
+      - .:/usr/app
+    command: ["tail", "-f", "/dev/null"]

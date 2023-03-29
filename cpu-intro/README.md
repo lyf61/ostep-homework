@@ -249,4 +249,9 @@ Now go answer the questions at the back of the chapter to learn more, please.
 
 
 
-
+question3: python process-run.py -l 1:0,4:100 -c -p
+question4: python process-run.py -l 1:0,4:100 -c -p -S SWITCH_ON_END
+question5: python process-run.py -l 1:0,4:100 -c -p -S SWITCH_ON_IO
+question6: python process-run.py -l 3:0,5:100,5:100,5:100 -c -p -S SWITCH_ON_IO -I IO_RUN_LATER
+question7: python process-run.py -l 3:0,5:100,5:100,5:100 -c -p -S SWITCH_ON_IO -I IO_RUN_IMMEDIATE
+question8: python process-run.py -s 1 -l 3:50,3:50,-s 2 -l 3:50,3:50,-s 3 -l 3:50,3:50 -c -p 
